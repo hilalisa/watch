@@ -53,8 +53,7 @@ class App extends React.Component {
         boxSizing: 'border-box',
         padding: ms[6],
         minHeight: '100vh',
-        color: 'black',
-        backgroundColor: '#F0F0F0',
+        color: 'black'
       },
       center: {
         display: 'table-cell',
