@@ -38,7 +38,7 @@ class Analog extends React.Component {
       },
       sec: {
         fill: 'none',
-        stroke: '#ff4136',
+        stroke: '#ea4335',
         strokeWidth: .5,
         transform: 'rotate(' + sn + 'deg)',
         transformOrigin: c + 'px ' + c + 'px',
@@ -47,7 +47,7 @@ class Analog extends React.Component {
         transitionTimingFunction: 'linear'
       },
       secCircle: {
-        fill: '#ff4136'
+        fill: '#ea4335'
       }
     }
 
