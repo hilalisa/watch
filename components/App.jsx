@@ -3,9 +3,8 @@ import React from 'react'
 import modular from 'simple-modular-scale'
 import Analog from './Analog.jsx'
 
-import Analog2 from './Analog2.jsx'
-
-import Digital from './Digital.jsx'
+// import Analog2 from './Analog2.jsx'
+// import Digital from './Digital.jsx'
 
 let id = false
 
@@ -76,9 +75,10 @@ class App extends React.Component {
       <div style={styles.container}>
         <div style={styles.center}>
           <div style={styles.watch}>
-            <Analog2 {...this.state} {...time} />
+
             <Analog {...this.state} {...time} />
-            <Digital {...this.state} {...time} />
+         {/*   <Analog2 {...this.state} {...time} />
+            <Digital {...this.state} {...time} />*/}
           </div>
         </div>
       </div>
