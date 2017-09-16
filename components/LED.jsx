@@ -108,25 +108,25 @@ class LED extends React.Component {
 
     let styles = {
       a: {
-        opacity: s.a ? 1 : 0.125
+        opacity: s.a ? 1 : 0
       },
       b: {
-        opacity: s.b ? 1 : 0.125
+        opacity: s.b ? 1 : 0
       },
       c: {
-        opacity: s.c ? 1 : 0.125
+        opacity: s.c ? 1 : 0
       },
       d: {
-        opacity: s.d ? 1 : 0.125
+        opacity: s.d ? 1 : 0
       },
       e: {
-        opacity: s.e ? 1 : 0.125
+        opacity: s.e ? 1 : 0
       },
       f: {
-        opacity: s.f ? 1 : 0.125
+        opacity: s.f ? 1 : 0
       },
       g: {
-        opacity: s.g ? 1 : 0.125
+        opacity: s.g ? 1 : 0
       },
     }
 

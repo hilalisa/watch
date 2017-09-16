@@ -16,7 +16,7 @@ class Digital extends React.Component {
       <div>
         <div style={style}>{hour % 12}:{padLeft(min, 2, '0')}:{padLeft(sec, 2, '0')} {hour % 12 ? 'pm' : 'am'}</div>
         <pre>{sec} sec / {secs % 60} . {secs} secs / {Math.floor(secs / 60)} elapsed minutes</pre>
-        <div style={{ color: 'red' }}>
+        <div style={{ color: '#4285f4' }}>
           <LED number={Math.floor(hour / 10)} />
           <LED number={hour % 10} />
           <LED number={Math.floor(min / 10)} />
